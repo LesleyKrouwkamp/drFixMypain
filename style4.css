@@ -1,0 +1,59 @@
+body{
+    background-image: url("srg.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1abc9c;
+
+}
+
+.container{
+    position: relative;
+    padding: 20px 35px;
+    margin-top: 40px;
+    margin-left: 18px;
+    text-align: center;
+}
+input{
+    position: relative;
+    padding: 20px 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.btn1{
+  
+  margin-left: 43%;
+  
+  position: absolute;
+  background-color: #FF6E40;
+  color: white;
+  font-size: 16px;
+  padding: 30px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 400px) {
+    .btn1 {
+          display: inline-block;
+          margin-left: 29%;
+         
+      }
+    }

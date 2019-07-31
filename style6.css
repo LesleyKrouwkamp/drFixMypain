@@ -1,0 +1,14 @@
+Body{
+    background-image: url("health.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    position: relative;
+    background-color: lightgrey;
+    width: 230px;;
+    padding: 40px;
+    margin-top: 30%;
+}
+
